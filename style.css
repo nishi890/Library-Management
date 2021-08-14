@@ -1,0 +1,260 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:white;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*---------------------------------------------index-----------------------------------------------------------------------*/
+.wrapper
+{
+    height:510px ;
+    width: 1300px ;
+   
+}
+header
+{
+    height: 120px;
+    width: 1380px;
+    background-color: rgb(126, 154, 165)
+}
+
+section
+{
+    height: 500px;
+    width: 1380px;
+    background-color:grey
+}
+footer{
+    height: 60px;
+    width: 1380px;
+    background-color: rgb(47, 92, 108)
+
+}
+.logo
+{
+ 
+  float: left;
+  padding-left: 25px;
+}
+.logo img
+{
+  padding-left: 45px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+   
+    border: 1px;
+    font-size: 18px;
+
+}
+li a:hover{
+    background-color: yellowgreen;
+    transition: .3s;
+}
+/*nav{
+    float: right;
+    word-spacing: 30px;
+    padding: 32px;
+    border: 1px;
+  
+}
+nav li{
+    display: inline-block;
+    line-height: 30px;
+    
+    
+}*/
+section .sec_img
+{  
+     margin-top: 0px;
+    background-image: url(5.jpg);
+    height: 530px;
+    width: 1380px;
+}
+.box
+{
+    height: 100px;
+    width: 600px;
+    margin: 140px auto;
+    background-color: rgb(16, 29, 43);
+    opacity: .9;
+}
+/*--------contact us________--*/
+section .img_contact
+{   margin-top: 0px;
+    height: 510px;
+    background-image: url(contact.jpg);
+    width: 1380px;
+} 
+.box3
+    {
+        height: 380px;
+        width: 700px;
+        margin: 140px auto;
+        background-color: rgb(22, 31, 31);
+        opacity: .7;
+    }
+    input{
+        height:30px ;
+        width:300px ;
+    } 
+    .ro
+    {
+        padding-left:  30px ;
+        padding-top:  100px ;
+        float: left;
+    } 
+    .lo
+    {
+        padding-right:  30px ;
+        padding-top:  100px ;
+        float: right;
+    }
+    .btn{
+        margin-top: 10px;
+    padding-left: 30px;
+    }
+/* -------st login----------------- */
+section .log_img
+{   margin-top: 0px;
+    height: 550px;
+    background-image: url(add.jpg);
+    width: 1350px;
+}
+.box1
+    {
+        height: 400px;
+        width: 450px;
+        margin: 50px auto;
+        background-color: rgb(8, 24, 33);
+        opacity: .9;
+    }
+form .log_in
+{
+    margin: auto 70px ;
+}
+input
+{
+    height: 25px;
+    width: 350px;
+}
+/*----reg------*/
+.reg_img
+{   margin-top: 0px;
+    height: 550px;
+    background-image: url(5.jpg);
+    width: 1280px;
+}
+.box2
+
+    {
+        height: 550px;
+        width: 450px;
+        margin: 0px auto;
+        background-color: rgb(19, 31, 48);
+        opacity: .9;
+    }
+ form .log_on{
+        margin: auto 70px ;
+    }
+    input
+    {
+        height: 25px;
+        width: 350px;
+    }
+    /*------------------feedback---------*/
+    .img_feed{
+        background-image: url(19.jpg);
+        width: 1380px;
+        height: 550px;
+    }
